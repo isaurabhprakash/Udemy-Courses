@@ -16,17 +16,24 @@ html {
     text-rendering: optimizeLegibility;    
 }
 
+.box {
+    padding: 1%;
+}
 /*------------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*------------------------------------------*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
-    
+}
+
+section {
+    padding: 80px 0;
+}
 /*
   Orange Color : #e67e22  
 */    
-}
+
 
 /*------BUTTONS------*/
 .btn:link,
@@ -81,13 +88,39 @@ header {
     height: 100vh;    
 }
 
+h1,h2 {
+    font-weight: 300;
+    text-transform:uppercase;    
+}
+
 h1 {
-    margin: 0;
+    margin: 0 20px 0 0;
     color: #fff;
     font-size: 240%;
-    font-weight: 300;
-    text-transform:uppercase;
     word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    word-spacing: 2px;
+    margin-bottom: 30px;    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 20px auto 0 auto;
+    
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 .header-text-box {
@@ -130,3 +163,25 @@ h1 {
     padding: 8px 0;
     border-bottom: 2px solid #e67e22;
 }
+
+/*-----------PARAGRAPHS-----------*/
+.long-text {
+    line-height: 145%;
+    width: 70%;
+    margin: 0 15% 4% 15%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+}
+
+/*--------ICONS----------*/
+.icon-big {
+    color:#e67e22;
+    font-size: 300%;  
+    font-weight: 100%;
+    margin-bottom: 10px;        
+}
+
